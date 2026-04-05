@@ -6,6 +6,7 @@
         const  [email, setEmail] = React.useState("");
         const [name, setName] = React.useState("");
         const [password, setPassword] = React.useState("");
+        
 
         const [variant, setVariant] = React.useState("login");
         const toggleVariant = React.useCallback(() => {
